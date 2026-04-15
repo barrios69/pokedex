@@ -4,6 +4,6 @@
   },
   "globalHeaders": {
     "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https://pokeapi.co https://raw.githubusercontent.com; img-src 'self' data: https://raw.githubusercontent.com;",
-    "Access-Control-Allow-Origin": "*"
+   
   }
 }
