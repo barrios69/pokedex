@@ -19,13 +19,12 @@ export class PokemonDetailsComponent implements OnInit {
   busy = true;
   error = false;
 
-  constructor(private route: ActivatedRoute, private pokemonSpecieService: PokemonSpecieService) {}
+  constructor(private route: ActivatedRoute, private pokemonSpecieService: PokemonSpecieService) { }
 
   ngOnInit() {
-    let pokemonId;
     this.route.params.subscribe(({ id }) => {
-      let routeParamId = id;
-      pokemonId = routeParamId ? parseInt(routeParamId) : 0;
+      const pokemonId = (id && id !== '0') ? parseInt(id) : 1;
+
       this.pokemon.id = pokemonId;
       this.busy = true;
       this.getPokemonSpecie(pokemonId);
