@@ -8,12 +8,19 @@ Tecnologías Utilizadas
 * **Estado y Datos:**: Apollo GraphQL & RxJS.
 * **Infraestructura:** Azure Static Web Apps.
 * **CI/CD:** :GitHub Actions.
-* **Seguridad:**: Content Security Policy (CSP) & HSTS.
+*Automatización:* CI/CD mediante GitHub Actions.
+* **Seguridad Avanzada:** Configuración de Headers mediante `staticwebapp.config.json`.
+
+URL = https://black-sea-04745db10.7.azurestaticapps.net/
+
+
+
 
 Instalación y Desarrollo Local
 1. Clonar el repositorio: `git clone https://github.com/barrios69/pokedex.git`
 2. Instalar dependencias: `npm install`
 3. Ejecutar servidor local: `ng serve`
-4. Abrir en: `http://localhost:4200`
+
+
 
 *Proyecto desarrollado para la asignatura de Sistemas Distribuidos - 2026.*
