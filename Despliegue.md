@@ -1,4 +1,4 @@
-##  Informe de Despliegue y Seguridad
+ ##  Informe de Despliegue y Seguridad
 
  Estrategia de Despliegue
 La aplicación ha sido desplegada utilizando una arquitectura de **Static Web Apps** en **Microsoft Azure**. 
